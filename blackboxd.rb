@@ -2,9 +2,9 @@
 class Blackboxd < Formula
   desc "A pluggable platform for multi-chain deployments."
   homepage "https://crypdex.io/"
-  url "https://github.com/crypdex/blackbox/releases/download/0.1.51/blackboxd_0.1.51_darwin_amd64.tar.gz"
-  version "0.1.51"
-  sha256 "1529161c1958d67abd31c69f71706278e67c986460d5b6195ed626f7288ca50e"
+  url "https://github.com/crypdex/blackbox/releases/download/0.1.53/blackboxd_0.1.53_darwin_amd64.tar.gz"
+  version "0.1.53"
+  sha256 "e7ad875d9ec1f92e8dbb41e381cc82276b71f3bea3948bbf05a547d11467e616"
 
   def install
     bin.install "blackboxd"
