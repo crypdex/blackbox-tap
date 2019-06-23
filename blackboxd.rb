@@ -2,14 +2,14 @@
 class Blackboxd < Formula
   desc "A pluggable platform for multi-chain deployments."
   homepage "https://crypdex.io/"
-  version "0.2.0-rc5"
+  version "0.2.0-rc6"
 
   if OS.mac?
-    url "https://github.com/crypdex/blackbox/releases/download/0.2.0-rc5/blackboxd_0.2.0-rc5_darwin_amd64.tar.gz"
-    sha256 "7816674b951600c0ecebb01eacd76acf74a53b10acfe793569466937785dd4e5"
+    url "https://github.com/crypdex/blackbox/releases/download/0.2.0-rc6/blackboxd_0.2.0-rc6_darwin_amd64.tar.gz"
+    sha256 "517ba3dc5a873f31ef8582251a254b9bcc8e1470104c5d6563aca9c18d23fecc"
   elsif OS.linux?
-    url "https://github.com/crypdex/blackbox/releases/download/0.2.0-rc5/blackboxd_0.2.0-rc5_linux_amd64.tar.gz"
-    sha256 "76ec95defbc388fa9be1f56748b07bece51329812c73f86bad2099c1194cf892"
+    url "https://github.com/crypdex/blackbox/releases/download/0.2.0-rc6/blackboxd_0.2.0-rc6_linux_amd64.tar.gz"
+    sha256 "f73d8588c21d19106f5ecfb083d3a1b47465a424b375342ea7a9533869f5ab91"
   end
 
   def install
