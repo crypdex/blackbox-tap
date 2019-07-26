@@ -2,9 +2,9 @@
 class BlackboxOs < Formula
   desc "A pluggable platform for multi-chain deployments."
   homepage "https://crypdex.io/"
-  url "https://github.com/crypdex/blackbox/releases/download/0.2.5/blackbox-os_0.2.5_darwin_amd64.tar.gz"
-  version "0.2.5"
-  sha256 "d28e4ebaced924be9d9b04e5740252773daa0ba40e5650a0ea11dfd2157575ef"
+  url "https://github.com/crypdex/blackbox/releases/download/0.2.6/blackbox-os_0.2.6_darwin_amd64.tar.gz"
+  version "0.2.6"
+  sha256 "ae715af8d58808c421ce53096120efedae3904f92506e0251356b5291ce4c16e"
 
   def install
     bin.install "blackbox"
