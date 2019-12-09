@@ -2,21 +2,21 @@
 class BlackboxOs < Formula
   desc "A pluggable platform for multi-chain deployments."
   homepage "https://crypdex.io/"
-  version "0.2.22"
+  version "0.2.23"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/crypdex/blackbox/releases/download/0.2.22/blackbox-os_0.2.22_darwin_amd64.tar.gz"
-    sha256 "b99847b8d37cd8afbecc5442ba5ea2bf72dd3d88fb60ea4826269dd8f750e4e7"
+    url "https://github.com/crypdex/blackbox/releases/download/0.2.23/blackbox-os_0.2.23_darwin_amd64.tar.gz"
+    sha256 "6cb7540fada02e66adf9b60e68e80ac1f9810db26c8717f51b5c95d664e046cf"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/crypdex/blackbox/releases/download/0.2.22/blackbox-os_0.2.22_linux_amd64.tar.gz"
-      sha256 "9e8ef82dca6fe46ff830a9978bf87cfcf52e43b53506d99320ec87218b75125c"
+      url "https://github.com/crypdex/blackbox/releases/download/0.2.23/blackbox-os_0.2.23_linux_amd64.tar.gz"
+      sha256 "c6f3adadf301ab4dcff38f20f0e1750abb7908c47f05a7ff40fd9bd7b68ea8d6"
     end
     if Hardware::CPU.arm?
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/crypdex/blackbox/releases/download/0.2.22/blackbox-os_0.2.22_linux_arm64.tar.gz"
-        sha256 "57e2189d9c2cb13dac48c1fd45c3ea924358b73d60e30811e87dd37e87c4fcc3"
+        url "https://github.com/crypdex/blackbox/releases/download/0.2.23/blackbox-os_0.2.23_linux_arm64.tar.gz"
+        sha256 "d9d2c09a8e11aeb314de046852e3884b68e13d3ae4870c3e41920306fc7a76e4"
       else
       end
     end
